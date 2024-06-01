@@ -1,0 +1,7 @@
+git clone https://github.com/ljolik/paradox.git
+cd paradox
+echo -e "# paradox\n\nA simple Python script." > README.md
+echo -e "def main():\n    print(\"Hello, Python world!\")\n\nif __name__ == \"__main__\":\n    main()" > script.py
+git add README.md script.py
+git commit -m "Add README and script.py"
+git push origin main  # или master, в зависимости от основной ветки
